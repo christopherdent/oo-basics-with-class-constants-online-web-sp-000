@@ -11,13 +11,14 @@ describe 'Shoe' do
       brands.each do |brand|
         Shoe.new(brand)
       end
-###here 
-
 
       brands.each do |brand|
         expect(Shoe::BRANDS).to include(brand)
       end
     end
+
+
+
 
     it 'only keeps track of unique brands' do
       Shoe::BRANDS.clear
