@@ -9,7 +9,7 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-      BRANDS << "Uggs"
+      BRANDS << brand
   end
 
 
