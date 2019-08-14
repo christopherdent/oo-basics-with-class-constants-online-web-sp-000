@@ -19,7 +19,7 @@ class Shoe
   end
 
 
-
+BRANDS.uniq! 
 
 
 end
